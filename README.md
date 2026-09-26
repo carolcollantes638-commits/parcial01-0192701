@@ -108,3 +108,24 @@ Construya un programa que:
 Entregue los dos archivos `.java`, debidamente nombrados y capaces de compilar y ejecutarse sin errores.
 
 **Antes de escribir código, identifique las entradas, el proceso y las salidas. El compilador detecta errores de sintaxis; la lógica todavía corre por cuenta del programador.**
+
+Ejercicio 1
+
+1.Tenemos que guardar los primero 10 valores del arreglo, donde podemos guardar varios datos de un mismo dato
+2.luego le pedimos al usuario ingresar el consumo de cada sector, cuando llegue a 10 termina.
+3.Usamos un while por si el usuario ingresa un numero se menor que 0, lo vuelva pedir.
+4.calculamos el consumo total sumando los 10 consumos.
+5.calculamos el promedio con total/cantidad de sectores y utilizamos un double por que tiene que ser en decimales.
+6.buscamos el sector con mayor consumo
+7.buscamos que sector tiene la racha mas larga
+
+EJERCICIO 2
+
+1.utilizamos una matriz por que el arreglo no es de una sola dimension.
+2.utilizamos dos for, uno para que recorra las maquinas y otro para los dias
+3.despues validamos que no hayan negativos con while,
+4.ahora sumamos cada fila para poder optener el total de cada maquina, despues el for para que pase por siguiente maquina.
+5.comparamos todos los totales para saber cual es la maquina con mayor produccion.
+6.ahora recorremos las columnas y sumamos 
+7.buscamos el dia con menor produccion comparando los totales de los 5 dias
+8.finalmente tenemos que mirar los datos de la matriz para los menores de 20 con dos for.

@@ -28,7 +28,7 @@ public class Ejercicio2{
             }
         }
 
-        System.out.println("\n--- TOTAL POR MÁQUINA ---");
+        System.out.println("TOTAL POR MÁQUINA");
 
         int mayorProduccion = 0;
         int maquinaMayor = 1;
@@ -97,7 +97,7 @@ public class Ejercicio2{
                 + cantidadMenores20);
 
         
-        System.out.println("\n--- MATRIZ DE PRODUCCIÓN ---");
+        System.out.println(" MATRIZ DE PRODUCCIÓN");
 
         System.out.print("          ");
         for (int j = 0; j < 5; j++) {
